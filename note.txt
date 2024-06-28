@@ -1,0 +1,16 @@
+function - user lowercase word or words. Separate words by underscores to improve readability e.g. function,my_function
+
+variable - user lowerecase single letter,word,words. Separate words by underscores to improve readability
+
+Class - camelCase e,g, MyClass
+
+Method - short, lowercase word or words, snake camelCase e.g.my_module.py
+
+Package - lowercase, no under score e.g. mypackage
+
+Naming using underscores 
+'_' can used to named variables,function and classes, 
+    - Single Pre Underscore: _variable -> for internal used
+    - Single Post Underscore: variable_ -> avoid clashes with Python keywords
+    - Double Pre Underscores: __variable -> to rewrite the attribute name of subclasses to avoid naming conflicts
+    - Double Pre and Post Underscores : __variable__ -> automatically called by the python interpreter in eresponse to certain operations
