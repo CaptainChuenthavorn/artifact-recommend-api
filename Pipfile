@@ -8,8 +8,6 @@ mypy = "*"
 fastapi = "*"
 uvicorn = "*"
 pymongo = "*"
-motor = "*"
-motorpython3 = "*"
 
 [dev-packages]
 pytest = "*"

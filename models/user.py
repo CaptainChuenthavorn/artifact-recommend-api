@@ -11,4 +11,5 @@ class UserArtifact(BaseModel):
 class User(BaseModel):
     email: EmailStr
     password: str
-    artifacts: List[UserArtifact]
+    artifacts: List[UserArtifact] = []
+
